@@ -1,0 +1,16 @@
+{
+    "name": "gptext",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write ."
+    },
+    "author": "Sifatul Rabbi",
+    "license": "MIT",
+    "description": "",
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "prettier": "^3.4.2"
+    }
+}

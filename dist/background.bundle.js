@@ -1,0 +1,1 @@
+(()=>{"use strict";chrome.runtime.onInstalled.addListener((e=>{console.log("Extension installed or updated",e.reason)})),chrome.runtime.onMessage.addListener(((e,o,n)=>{console.log("Background received a message:",e,"from:",o),"PING"===e.type&&n({type:"PONG",payload:"Hello from background!"})}))})();

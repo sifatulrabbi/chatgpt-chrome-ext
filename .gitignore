@@ -1,2 +1,7 @@
 node_modules
 !.gitkeep
+.env
+.locals
+.cursorignore
+dist
+build
